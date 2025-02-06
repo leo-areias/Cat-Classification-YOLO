@@ -5,7 +5,7 @@ import boto3
 from ultralytics import YOLO
 
 # Configuração do AWS S3
-AWS_BUCKET_NAME = "seu-bucket-name"  # Substitua pelo nome do seu bucket
+AWS_BUCKET_NAME = "bucket_name"  # Substitua pelo nome do seu bucket
 s3_client = boto3.client("s3")
 
 def upload_to_s3(file_path, s3_key):
