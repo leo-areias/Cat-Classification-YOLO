@@ -79,6 +79,7 @@ python script.py
 
 5. **Upload do JSON para S3**:
    - O arquivo `detection_results.json` é enviado para o AWS S3 na pasta `inferences/`.
+   - As `imagens` processadas também são enviadas para o AWS S3 na pasta `imgs/`.
 
 ## 📜 Exemplo de Saída (JSON)
 
